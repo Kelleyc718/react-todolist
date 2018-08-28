@@ -54,7 +54,7 @@ export default class IndexItem extends Component {
 
     render() {
       return (
-        <div className="container">
+        <div className="container center">
           <div className="panel panel-default">
             <div className="panel-heading">List of Tasks</div>
             <div className="panel-body">
@@ -66,7 +66,7 @@ export default class IndexItem extends Component {
               </table>
             </div>
             <div className="panel-footer">
-              <button onClick={this.handleAdd} className="btn btn-info">New task</button>
+              <button onClick={this.handleAdd} className="btn btn-info">Be Fo-Real</button>
             </div>
           </div>
         </div>
