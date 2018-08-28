@@ -4,14 +4,8 @@ export const Header = (props) => {
   return (
     <nav className="navbar navbar-default">
         <div className="container-fluid">
-          <div className="navbar-header">
-            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar"></span>
-            </button>
-            <nav className="navbar-brand" href="#">The Fo-Real List</nav>
-          </div>
+            <a className="navbar-brand" href="#">The Fo-Real List</a>
         </div>
-      </nav>
+    </nav>
   );
 }
