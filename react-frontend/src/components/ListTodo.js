@@ -56,9 +56,9 @@ export default class IndexItem extends Component {
       return (
         <div className="container center">
           <div className="panel panel-default">
-            <div className="panel-heading">List of Tasks</div>
+            <div className="panel-heading">The Realist</div>
             <div className="panel-body">
-            <p>Click on the task description to edit</p>
+            <p>Put things here and be real.</p>
               <table id="todo-list" className="table table-bordered">
                 <tbody>
                   {this.tabRow()}

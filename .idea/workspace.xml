@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9132ea15-966d-4f18-80cf-5dc4d5ec04c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/react-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/ListTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/ListTodo.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +55,7 @@
           <entry key="Dockerfile" value="2" />
           <entry key="css" value="2" />
           <entry key="html" value="32" />
-          <entry key="js" value="76" />
+          <entry key="js" value="117" />
           <entry key="sh" value="18" />
         </counts>
       </usages-collector>
@@ -64,7 +64,7 @@
           <entry key="CSS" value="2" />
           <entry key="Dockerfile" value="2" />
           <entry key="HTML" value="32" />
-          <entry key="JavaScript" value="76" />
+          <entry key="JavaScript" value="117" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -90,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-frontend/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -108,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-frontend/src/components/ListTodo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+            <state relative-caret-position="167">
+              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -133,11 +133,11 @@
         <option value="$PROJECT_DIR$/automated.sh" />
         <option value="$PROJECT_DIR$/backend/app.js" />
         <option value="$PROJECT_DIR$/react-frontend/public/index.html" />
-        <option value="$PROJECT_DIR$/react-frontend/src/components/ListTodo.js" />
         <option value="$PROJECT_DIR$/react-frontend/src/App.css" />
         <option value="$PROJECT_DIR$/react-frontend/src/components/Header.js" />
         <option value="$PROJECT_DIR$/react-frontend/src/App.js" />
         <option value="$PROJECT_DIR$/react-frontend/src/index.js" />
+        <option value="$PROJECT_DIR$/react-frontend/src/components/ListTodo.js" />
       </list>
     </option>
   </component>
@@ -242,18 +242,18 @@
       <updated>1535480061247</updated>
       <workItem from="1535480062392" duration="370000" />
       <workItem from="1535480462605" duration="1551000" />
-      <workItem from="1535483435104" duration="2972000" />
+      <workItem from="1535483435104" duration="3021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4893000" />
+    <option name="totallyTimeSpent" value="4942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="411" y="23" width="1029" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,7 +265,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,16 +347,6 @@
     <entry file="file://$PROJECT_DIR$/react-frontend/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-frontend/src/components/ListTodo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-frontend/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -392,6 +382,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-frontend/src/components/ListTodo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
