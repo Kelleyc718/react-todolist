@@ -14,20 +14,11 @@ import './index.css';
 
 ReactDOM.render(
   <div className="container">
-    <div className="row">
-      <div className="col-xs-12">
-        <Header/>
-      </div>
-    </div>
-    <div>
       <Router>
-      <div>
-      <Route path='/add' component={AddTodo} />
-      <Route exact path='/' component={ListTodo} />
-      <Route path='/update/:id' component={UpdateTodo} />
-      </div>
+            <Route path='/add' component={AddTodo} />
+            <Route exact path='/' component={ListTodo} />
+            <Route path='/update/:id' component={UpdateTodo} />
       </Router>
-    </div>
   </div>
 ,
   document.getElementById('root')
