@@ -25,14 +25,14 @@ var todoListRoutes = require('./src/routes/todoListRoutes');
 
 // App Instance
 var app = express();
-app.use(express.static('pmongoose.connect(\'mongodb://mongodb\')\n' +
+app.use(express.static('mongoose.connect(\'mongodb://mongodb\')\n' +
     '    .then(() => {\n' +
     '      console.log(\'Backend Started\');\n' +
     '    })\n' +
     '    .catch(err => {\n' +
     '        console.error(\'Backend error:\', err.stack);\n' +
     '        process.exit(1);\n' +
-    '    });ublic'));
+    '    });public'));
 app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
